@@ -1,0 +1,101 @@
+* {
+    font:"Times New Roman", sans-serif;
+}
+
+body {
+    
+    
+        width: 100%;
+        height: 400px;
+        background-image: url('background.jpg');
+        background-size: cover;
+        
+     
+}
+
+h1 {
+    background-color: rgb(101, 141, 101);
+    color:rgb(233, 223, 223);
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    background-color: none;
+    color:rgb(134, 34, 134);
+    
+    
+    font-style: italic;
+    font-size: 28px;
+}
+
+h3 {
+    color:rgb(245, 245, 19);
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+    font-size:150%;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+
+a:link, a:visited {
+background-color: rgb(180, 180, 233);
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .img{
+    width:100px;
+    height:100px;
+ 
+ /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+     object-fit:scale-down;
+ 
+ }
+
+ div {
+     background-color: rgb(187, 187, 235);
+     width:700px;
+     height: 400px;
+     opacity: 0.9;
+     
+ }
+
+ 
